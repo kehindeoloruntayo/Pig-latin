@@ -41,3 +41,13 @@ Expected Output: "ickquay"
 Test: "It should work normally for words starting with ("squ")"
 Code: const result = convertToPigLatin('squeal');
 Expected Output: "quealsay"
+
+function isNumber(word) {
+  return !isNaN(word);
+}
+if (isNumber(word)) {
+      return word;
+    }
+Test: "It should not make any change to numbers"
+Code: const result = convertToPigLatin('5');
+Expected Output: "5"
