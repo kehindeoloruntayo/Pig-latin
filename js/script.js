@@ -20,7 +20,7 @@ function convertToPigLatin(word) {
     let firstVowelIndex = 0;
     for (let i = 0; i < word.length; i++) {
       if (vowels.includes(word[i].toLowerCase())) {
-        firstVowelIndex = i;
+        firstVowelIndex = i;  
         break;
       }
     }
